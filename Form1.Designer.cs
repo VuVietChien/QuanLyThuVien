@@ -35,11 +35,12 @@ namespace project
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(322, 164);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(75, 38);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "ok";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // label1
