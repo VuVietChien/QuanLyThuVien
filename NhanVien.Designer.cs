@@ -1,7 +1,7 @@
 ﻿
 namespace project
 {
-    partial class DangKi
+    partial class NhanVien
     {
         /// <summary>
         /// Required designer variable.
@@ -31,14 +31,12 @@ namespace project
         {
             this.SuspendLayout();
             // 
-            // DangKi
+            // NhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(711, 360);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "DangKi";
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Name = "NhanVien";
             this.ResumeLayout(false);
 
         }
