@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace project
 {
-    public partial class DangKi : Form
+    public partial class DocGia : Form
     {
-        public DangKi()
+        public DocGia()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
