@@ -16,5 +16,17 @@ namespace project
         {
             InitializeComponent();
         }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DangNhap f = new DangNhap();
+            f.Show();
+            this.Close();
+        }
     }
 }
