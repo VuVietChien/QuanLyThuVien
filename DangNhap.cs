@@ -37,7 +37,7 @@ namespace project
             }
             else
             {
-                MessageBox.Show("DANG NHAP THAT BAI!!");
+                _ = MessageBox.Show("DANG NHAP THAT BAI!!");
             }
         }
 

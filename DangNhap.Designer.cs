@@ -43,7 +43,7 @@ namespace project
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(366, 56);
+            this.label1.Location = new System.Drawing.Point(385, 57);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(227, 46);
             this.label1.TabIndex = 0;
@@ -77,7 +77,7 @@ namespace project
             this.textBox1.Location = new System.Drawing.Point(322, 140);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(326, 49);
+            this.textBox1.Size = new System.Drawing.Size(363, 49);
             this.textBox1.TabIndex = 3;
             // 
             // textBox3
@@ -86,7 +86,7 @@ namespace project
             this.textBox3.Location = new System.Drawing.Point(322, 229);
             this.textBox3.Name = "textBox3";
             this.textBox3.PasswordChar = '*';
-            this.textBox3.Size = new System.Drawing.Size(326, 44);
+            this.textBox3.Size = new System.Drawing.Size(363, 44);
             this.textBox3.TabIndex = 5;
             this.textBox3.UseSystemPasswordChar = true;
             // 
@@ -107,7 +107,7 @@ namespace project
             // 
             this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(509, 343);
+            this.button2.Location = new System.Drawing.Point(534, 343);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(176, 55);
             this.button2.TabIndex = 7;
@@ -130,7 +130,7 @@ namespace project
             this.Controls.Add(this.label1);
             this.Name = "DangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "DangNhap";
+            this.Text = "Đăng Nhập";
             this.ResumeLayout(false);
             this.PerformLayout();
 

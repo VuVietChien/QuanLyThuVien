@@ -39,8 +39,6 @@ namespace project
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-          //  this.quanLyThuVienDataSet1 = new project.QuanLyThuVienDataSet();
-         //   ((System.ComponentModel.ISupportInitialize)(this.quanLyThuVienDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -93,7 +91,7 @@ namespace project
             this.textBox1.Location = new System.Drawing.Point(278, 79);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(326, 49);
+            this.textBox1.Size = new System.Drawing.Size(366, 49);
             this.textBox1.TabIndex = 6;
             // 
             // textBox2
@@ -102,7 +100,7 @@ namespace project
             this.textBox2.Location = new System.Drawing.Point(278, 160);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(326, 49);
+            this.textBox2.Size = new System.Drawing.Size(366, 49);
             this.textBox2.TabIndex = 7;
             // 
             // textBox3
@@ -111,16 +109,16 @@ namespace project
             this.textBox3.Location = new System.Drawing.Point(278, 245);
             this.textBox3.Name = "textBox3";
             this.textBox3.PasswordChar = '*';
-            this.textBox3.Size = new System.Drawing.Size(326, 44);
+            this.textBox3.Size = new System.Drawing.Size(366, 44);
             this.textBox3.TabIndex = 8;
             this.textBox3.UseSystemPasswordChar = true;
             // 
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(278, 335);
+            this.textBox4.Location = new System.Drawing.Point(278, 331);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(326, 44);
+            this.textBox4.Size = new System.Drawing.Size(366, 44);
             this.textBox4.TabIndex = 9;
             // 
             // button1
@@ -128,7 +126,7 @@ namespace project
             this.button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(468, 422);
+            this.button1.Location = new System.Drawing.Point(514, 422);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(176, 55);
             this.button1.TabIndex = 10;
@@ -141,18 +139,13 @@ namespace project
             this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(163, 422);
+            this.button2.Location = new System.Drawing.Point(185, 422);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(176, 55);
             this.button2.TabIndex = 11;
             this.button2.Text = "SIGN UP";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // quanLyThuVienDataSet1
-            // 
-          //  this.quanLyThuVienDataSet1.DataSetName = "QuanLyThuVienDataSet";
-           // this.quanLyThuVienDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // DangKi
             // 
@@ -172,8 +165,8 @@ namespace project
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "DangKi";
-            this.Text = "đăng kí";
-           // ((System.ComponentModel.ISupportInitialize)(this.quanLyThuVienDataSet1)).EndInit();
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Đăng Kí";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -191,6 +184,6 @@ namespace project
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-      //  private QuanLyThuVienDataSet quanLyThuVienDataSet1;
+    //   private QuanLyThuVienDataSet quanLyThuVienDataSet1;
     }
 }
