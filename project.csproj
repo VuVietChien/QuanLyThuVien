@@ -141,6 +141,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="TheLoai.resx">
+      <DependentUpon>TheLoai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TheThuVien.resx">
+      <DependentUpon>TheThuVien.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -161,9 +167,6 @@
     <None Include="QuanLyThuVienDataSet.xss">
       <DependentUpon>QuanLyThuVienDataSet.xsd</DependentUpon>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

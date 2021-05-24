@@ -16,5 +16,20 @@ namespace project
         {
             InitializeComponent();
         }
+
+        private void theLoaiBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.theLoaiBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.quanLyThuVienDataSet);
+
+        }
+
+        private void TheThuVien_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'quanLyThuVienDataSet.TheLoai' table. You can move, or remove it, as needed.
+            this.theLoaiTableAdapter.Fill(this.quanLyThuVienDataSet.TheLoai);
+
+        }
     }
 }

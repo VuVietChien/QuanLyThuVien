@@ -2,6 +2,7 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="project.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
+<<<<<<< HEAD
     <Setting Name="qlSinhVienConnectionString" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
@@ -17,6 +18,15 @@
   &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
       <Value Profile="(Default)">Data Source=DESKTOP-VJNST16\VVLONG;Initial Catalog=QuanLyThuVien;Integrated Security=True</Value>
+=======
+    <Setting Name="QuanLyThuVienConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DATNGUYEN\SQLEXPRESS;Initial Catalog=QuanLyThuVien;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DATNGUYEN\SQLEXPRESS;Initial Catalog=QuanLyThuVien;Integrated Security=True</Value>
+>>>>>>> c2183447f5afc2a76cabb5504ea5a8cee0c409d9
     </Setting>
   </Settings>
 </SettingsFile>

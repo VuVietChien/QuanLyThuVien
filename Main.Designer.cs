@@ -36,7 +36,7 @@ namespace project
             // 
             this.button1.Location = new System.Drawing.Point(667, 25);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 50);
+            this.button1.Size = new System.Drawing.Size(75, 53);
             this.button1.TabIndex = 0;
             this.button1.Text = "BACK";
             this.button1.UseVisualStyleBackColor = true;

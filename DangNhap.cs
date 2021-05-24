@@ -23,7 +23,7 @@ namespace project
             SqlConnection sql = new SqlConnection();
             sql.ConnectionString = "Data Source=DESKTOP-VJNST16\\VVLONG;Initial Catalog=QuanLyThuVien;Integrated Security=True";
             sql.Open();
-            string newc = "select username from login where username='"+textBox1.Text+"' and password='"+textBox3.Text+"'";
+            string newc = "select username from login where username='" + textBox1.Text + "' and password='" + textBox3.Text + "'";
             SqlDataAdapter adp = new SqlDataAdapter(newc, sql);
             DataSet ds = new DataSet();
             adp.Fill(ds);
@@ -34,8 +34,10 @@ namespace project
                 Main m = new Main();
                 m.Show();
                 this.Hide();
-
-
+            }
+            else
+            {
+                MessageBox.Show("DANG NHAP THAT BAI!!");
             }
         }
 
