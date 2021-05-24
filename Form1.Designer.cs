@@ -39,8 +39,8 @@ namespace project
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.quanLyThuVienDataSet1 = new project.QuanLyThuVienDataSet();
-            ((System.ComponentModel.ISupportInitialize)(this.quanLyThuVienDataSet1)).BeginInit();
+          //  this.quanLyThuVienDataSet1 = new project.QuanLyThuVienDataSet();
+         //   ((System.ComponentModel.ISupportInitialize)(this.quanLyThuVienDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -151,8 +151,8 @@ namespace project
             // 
             // quanLyThuVienDataSet1
             // 
-            this.quanLyThuVienDataSet1.DataSetName = "QuanLyThuVienDataSet";
-            this.quanLyThuVienDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+          //  this.quanLyThuVienDataSet1.DataSetName = "QuanLyThuVienDataSet";
+           // this.quanLyThuVienDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // DangKi
             // 
@@ -173,7 +173,7 @@ namespace project
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "DangKi";
             this.Text = "đăng kí";
-            ((System.ComponentModel.ISupportInitialize)(this.quanLyThuVienDataSet1)).EndInit();
+           // ((System.ComponentModel.ISupportInitialize)(this.quanLyThuVienDataSet1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -191,6 +191,6 @@ namespace project
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private QuanLyThuVienDataSet quanLyThuVienDataSet1;
+      //  private QuanLyThuVienDataSet quanLyThuVienDataSet1;
     }
 }

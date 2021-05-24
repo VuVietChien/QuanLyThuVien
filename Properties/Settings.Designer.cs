@@ -22,28 +22,12 @@ namespace project.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-<<<<<<< HEAD
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-VJNST16\\VVLONG;Initial Catalog=qlSinhVien;Integrated Security" +
-            "=True")]
-        public string qlSinhVienConnectionString {
-            get {
-                return ((string)(this["qlSinhVienConnectionString"]));
-            }
-        }
-        
+  
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-VJNST16\\VVLONG;Initial Catalog=QuanLyThuVien;Integrated Secur" +
             "ity=True")]
-=======
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DATNGUYEN\\SQLEXPRESS;Initial Catalog=QuanLyThuVien;Integrated Securit" +
-            "y=True")]
->>>>>>> c2183447f5afc2a76cabb5504ea5a8cee0c409d9
         public string QuanLyThuVienConnectionString {
             get {
                 return ((string)(this["QuanLyThuVienConnectionString"]));
